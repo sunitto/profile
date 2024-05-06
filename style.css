@@ -1,0 +1,91 @@
+body {
+  background-color:rgb(255, 255, 255);
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(36, 22, 124);
+  font-size:medium;
+  line-height:20px;
+}
+
+h1 {
+  color:rgb(152, 16, 16);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:medium
+
+}
+
+h2 {
+  color: rgb(66, 122, 9);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:small;
+  margin-top: 30px;
+}
+
+a {
+  color:darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color:aquamarine;
+  text-decoration: underline;
+}
+
+#profile_picture_circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+  box-shadow: 2px 2px 1px rgb(73, 69, 69);
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.social_icon_center {
+  display: flex;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: center;
+  gap: 20px;
+}
+
+#link_wagon_green {
+  background-color: #216606;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#link_wagon_green:hover {
+  background-color: rgb(65, 163, 64);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  }
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
